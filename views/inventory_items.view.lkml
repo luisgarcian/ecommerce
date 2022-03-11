@@ -1,3 +1,4 @@
+#comment for test commit
 # The name of this view in Looker is "Inventory Items"
 view: inventory_items {
   # The sql_table_name parameter indicates the underlying database table
