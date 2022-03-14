@@ -49,7 +49,7 @@ view: users {
 
   dimension: full_name {
     type: string
-    sql: ${TABLE}.lastname + ' ' + ${TABLE}.lastname ;;
+    sql: ${TABLE}.first_name + ' ' + ${TABLE}.last_name ;;
   }
 
 
