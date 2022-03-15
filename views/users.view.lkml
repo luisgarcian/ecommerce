@@ -26,6 +26,7 @@ view: users {
     type: tier
     tiers: [9, 19, 29, 39, 49, 59, 69, 79, 89, 99]
     style: integer
+    sql: ${age} ;;
   }
 
   # A measure is a field that uses a SQL aggregate function. Here are defined sum and average
