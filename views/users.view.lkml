@@ -24,7 +24,7 @@ view: users {
 
   dimension: age_tier {
     type: tier
-    tiers: [9, 19, 29, 39, 49, 59, 69, 79, 89, 99]
+    tiers: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     style: integer
     sql: ${age} ;;
   }
@@ -61,7 +61,7 @@ view: users {
 
   dimension: Nombre_Completo {
     type: string
-    sql: concat(  ${TABLE}.first_name , "-" , ${TABLE}.last_name) ;;
+    sql: concat(  ${TABLE}.first_name , ' ' , ${TABLE}.last_name) ;;
   }
 
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
