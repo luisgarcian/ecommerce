@@ -54,7 +54,7 @@ view: users {
 
   dimension: Nombre_Completo {
     type: string
-    sql: concat(  ${TABLE}.first_name , " " , ${TABLE}.last_name) ;;
+    sql: concat(  ${TABLE}.first_name , " " as space , ${TABLE}.last_name) ;;
   }
 
   # Dates and timestamps can be represented in Looker using a dimension group of type: time.
