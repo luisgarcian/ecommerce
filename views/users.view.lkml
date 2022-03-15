@@ -104,6 +104,10 @@ view: users {
     type: zipcode
     sql: ${TABLE}.zip ;;
   }
+dimension:  longuitud {
+  type: number
+  sql:  length( ${full_name}) ;;
+}
 
   measure: count {
     type: count
